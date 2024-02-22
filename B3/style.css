@@ -1,0 +1,29 @@
+.container {
+  padding: 20px 10px;
+  width: 303px;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.144);
+}
+
+.images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 1px;
+  margin-bottom: 20px;
+}
+
+.images>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.images>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
